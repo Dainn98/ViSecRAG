@@ -19,7 +19,7 @@
 
 ```
 ViSecRAG/
-├── README.md                       # Tài liệu này
+├── README.md                       
 ├── figure/                         # Hình ảnh và tài liệu minh họa
 └── src/
     ├── finetune_pipeline/
@@ -105,7 +105,7 @@ response = generate(query="Câu hỏi", retrieved_docs=results)
 print(response)
 ```
 
-## 🔬 Fine-tuning Mô hình
+## Fine-tuning Mô hình
 
 ### Embedding Model
 Mở `src/finetune_pipeline/embedding_model.ipynb` để fine-tuning mô hình embedding.
